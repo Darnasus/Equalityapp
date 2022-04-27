@@ -1,0 +1,70 @@
+2022-04-27 08:41:53.545  WARN 9348 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h26m55s1ms669µs275ns).
+2022-04-27 10:49:43.825  INFO 9348 --- [RMI TCP Connection(144)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-27 10:49:55.074  INFO 9348 --- [RMI TCP Connection(144)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-27 10:49:55.217  INFO 9348 --- [RMI TCP Connection(144)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-27 10:49:57.040  INFO 9348 --- [RMI TCP Connection(144)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-27 10:49:57.619  INFO 9348 --- [RMI TCP Connection(144)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-27 10:50:35.665  INFO 5280 --- [main] com.sv.CrudConfeApplication              : Starting CrudConfeApplication on Gabriel-PC with PID 5280 (C:\Users\Gabriel\Documents\STS PROJECTS\CrudConfe\target\classes started by Gabriel in C:\Users\Gabriel\Documents\STS PROJECTS\CrudConfe)
+2022-04-27 10:50:35.686  INFO 5280 --- [main] com.sv.CrudConfeApplication              : No active profile set, falling back to default profiles: default
+2022-04-27 10:50:38.607  INFO 5280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-27 10:50:38.988  INFO 5280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 338ms. Found 1 JPA repository interfaces.
+2022-04-27 10:50:41.044  INFO 5280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 10:50:41.099  INFO 5280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 10:50:41.100  INFO 5280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-27 10:50:41.358  INFO 5280 --- [main] o.a.c.c.C.[.[localhost].[/ApiRest]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 10:50:41.359  INFO 5280 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5429 ms
+2022-04-27 10:50:41.739  INFO 5280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-27 10:50:43.460  INFO 5280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-27 10:50:43.586  INFO 5280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-27 10:50:43.701  INFO 5280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2022-04-27 10:50:43.704  INFO 5280 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-04-27 10:50:44.015  INFO 5280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-27 10:50:44.474  INFO 5280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-27 10:50:46.115  INFO 5280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-27 10:50:47.819  INFO 5280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-27 10:50:48.466  WARN 5280 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-27 10:50:49.708  INFO 5280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ApiRest'
+2022-04-27 10:50:49.711  INFO 5280 --- [main] com.sv.CrudConfeApplication              : Started CrudConfeApplication in 16.25 seconds (JVM running for 18.754)
+2022-04-27 10:51:10.353  INFO 5280 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ApiRest]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 10:51:10.353  INFO 5280 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 10:51:10.377  INFO 5280 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2022-04-27 10:51:11.552  INFO 5280 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2022-04-27 10:56:50.474  INFO 5280 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-27 10:56:50.524  INFO 5280 --- [RMI TCP Connection(15)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-27 10:56:50.526  INFO 5280 --- [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-27 10:56:50.530  INFO 5280 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-27 10:56:50.589  INFO 5280 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-27 10:59:05.895  INFO 6252 --- [main] com.sv.CrudConfeApplication              : Starting CrudConfeApplication on Gabriel-PC with PID 6252 (C:\Users\Gabriel\Documents\STS PROJECTS\CrudConfe\target\classes started by Gabriel in C:\Users\Gabriel\Documents\STS PROJECTS\CrudConfe)
+2022-04-27 10:59:05.900  INFO 6252 --- [main] com.sv.CrudConfeApplication              : No active profile set, falling back to default profiles: default
+2022-04-27 10:59:07.399  INFO 6252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-27 10:59:07.640  INFO 6252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 227ms. Found 1 JPA repository interfaces.
+2022-04-27 10:59:08.821  INFO 6252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 10:59:08.875  INFO 6252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 10:59:08.876  INFO 6252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-27 10:59:09.111  INFO 6252 --- [main] o.a.c.c.C.[.[localhost].[/ApiRest]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 10:59:09.112  INFO 6252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3102 ms
+2022-04-27 10:59:09.376  INFO 6252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-27 10:59:11.118  INFO 6252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-27 10:59:11.231  INFO 6252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-27 10:59:11.342  INFO 6252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2022-04-27 10:59:11.344  INFO 6252 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-04-27 10:59:11.579  INFO 6252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-27 10:59:12.005  INFO 6252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-27 10:59:13.030  INFO 6252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-27 10:59:13.908  INFO 6252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-27 10:59:13.981  WARN 6252 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-27 10:59:14.640  INFO 6252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ApiRest'
+2022-04-27 10:59:14.644  INFO 6252 --- [main] com.sv.CrudConfeApplication              : Started CrudConfeApplication in 9.706 seconds (JVM running for 11.123)
+2022-04-27 10:59:24.625  INFO 6252 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ApiRest]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 10:59:24.625  INFO 6252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 10:59:24.646  INFO 6252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2022-04-27 10:59:25.092  INFO 6252 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2022-04-27 11:00:50.306  INFO 6252 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-27 11:00:50.353  INFO 6252 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-27 11:00:50.355  INFO 6252 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-27 11:00:50.359  INFO 6252 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-27 11:00:50.378  INFO 6252 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
